@@ -1,0 +1,206 @@
+/*ctrl F para buscar*/ 
+
+/* cambia a 1 rem = 10 mpx */
+html {
+    font-size: 62, 5%;
+}
+
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+    /*margin: 0%;
+    padding: 0%;*/
+
+}
+
+
+.fondoindex {
+    background: rgb(181,201,154);
+    background: linear-gradient(60deg, rgba(181,201,154,1) 9%, rgba(181,201,154,1) 21%, rgba(135,152,106,1) 30%, rgba(113,131,85,1) 40%, rgba(90,109,69,1) 52%, rgba(66,87,52,1) 65%, rgba(43,65,36,1) 78%, rgba(19,42,19,1) 91%);
+    font-size: 1rem;
+    text-align: right;
+}
+
+.fondomain img {
+    position: absolute;
+    width: 3.67rem;
+    height: 3.67rem;
+    z-index: 2;
+}
+
+
+.fotopurusha {
+    display: inline-block;
+    width: 20px;
+    position: fixed;
+}
+
+
+.fondoindex ul li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: right;
+    color: #ecf39e;
+}
+
+
+.fondomain {
+    padding: 0 1.5rem;
+    height: auto;
+    background-image: url("../images/7.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+
+h3 {
+    color: #fff8dc;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+h1 {
+    color: #00ffff;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.redes img {
+    width: 50px;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+
+.h3 {
+    color: #ea1a93;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-top: 40px;
+    padding: 20PX 20PX;
+}
+
+
+.logo {
+    width: 10%;
+}
+
+
+.form {
+    box-shadow: 0 0 20px 0; 
+    width: 100%;
+    background: none;
+    /*background-color: #05702596;*/
+    margin: 0;
+    padding: 1em;
+    
+}
+
+
+.form h2{
+    text-align: center;
+    color: #272236;
+    font-size: 30px;
+    margin: 20px;
+    padding-top: 20px;
+    font-family: monospace
+}
+
+
+.form label {
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-image: url("../images/7.png");
+
+}
+
+
+.form input {
+    width: 100%;
+    /*margin-block: 10px;*/
+    font-size: 20px;
+    border: none
+    background-image: url("../images/7.png");
+}
+
+
+.form textarea {
+    width: 100%;
+    margin-block: 10px;
+    border: none
+}
+
+.form fieldset {
+    font-weight: bold;
+    padding: 20px;
+    border: none;
+    background: none;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+
+.enviar {
+    background-color: #292727ce;
+    margin-top: 10px;
+    font-size: large;
+}
+
+
+@media screen and (max-width: 768px) {
+    .fondoindex {
+        background: rgb(73, 138, 28);
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 118, 1) 70%, rgba(0, 212, 255, 1) 88%);
+        text-align: center;
+    }
+
+    .li {
+        padding: 10px 10px;
+
+    }
+
+
+    .form {
+        background: rgb(93, 102, 87);
+
+    }
+}
+
+.content2{
+    background: #000;
+    background-color: #057025;
+    }
+    
+    .contact-info h4, .contact-info ul, .contact-info p {
+        text-align: center;
+        margin: 0 0 1rem 0;
+    }
