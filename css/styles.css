@@ -37,11 +37,12 @@ a {
     color: #f2f39e;
 }
 
-a:hover{
+a:hover {
     color: #a0a6a8;
 
 
 }
+
 /*index*/
 .fondomain {
     height: auto;
@@ -49,7 +50,7 @@ a:hover{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    
+
 }
 
 .gridmain {
@@ -117,20 +118,22 @@ a:hover{
 }
 
 .fotos img {
-    position: sticky;
+    display: flex;
     margin-left: 20px;
     padding-top: 20px;
     width: 350px;
     height: 350px;
 }
 
-.parrafo{
+.parrafo {
     font-family: 'Kalam', cursive;
-    font-size:medium;
+    font-size: medium;
 }
-.parrafo1{
+
+.parrafo1 {
     display: inline-block;
 }
+
 .redes img {
     width: 50px;
     display: inline-block;
@@ -292,6 +295,50 @@ a:hover{
 
 }
 
+/*contactame bootstrap*/
+
+.navbar-brand img {
+    position: absolute;
+    margin-top: 16px;
+    width: 3.67rem;
+    height: 3.67rem;
+    z-index: 2;
+}
+.ContainerForm {
+    box-shadow: 0 0 20px 0;
+    border-radius: 5px;
+    background: linear-gradient(8deg, #946d8c 9%, #0f2e37 81%);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.ContainerForm h2 {
+    text-align: center;
+    color: #7d8486;
+    font-size: 30px;
+    margin: 20px;
+    padding-top: 20px;
+    font-family: monospace
+}
+.form-label {
+    width: 100%;
+    font-weight: bold;
+    color: #ecedf3;
+    margin-bottom: 10px;
+    background-image: none;
+    border: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    display: inline-block;
+    text-align: right;
+    color: #f2f39e;
+}
+
+a:hover {
+    color: #a0a6a8;
+
 /*galeria*/
 
 .gradientgaleria {
@@ -303,7 +350,7 @@ a:hover{
 
 /*sobre mi*/
 .gradientsobremi {
-    background: rgb(130,139,132);
+    background: rgb(130, 139, 132);
     background: linear-gradient(34deg, #828b84 44%, #b56868 79%);
 }
 
@@ -438,31 +485,31 @@ a:hover{
         grid-template-areas:
             "logolista "
             "main "
-            "fotos" 
+            "fotos"
             "parrafo"
             "redes"
         ;
     }
-    
+
     .logolista {
         grid-area: logolista;
     }
-    
+
     .main {
         grid-area: main;
     }
-    
+
     .fotos {
         grid-area: fotos;
     }
-    
+
     .parrafo {
         grid-area: parrafo;
     }
-    
+
     .redes {
         grid-area: redes;
     }
-    
+
 
 }
