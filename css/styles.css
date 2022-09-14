@@ -34,33 +34,32 @@ a {
     text-decoration: none;
     display: inline-block;
     text-align: right;
-    color: #ecf39e;
+    color: #f2f39e;
 }
 
+a:hover{
+    color: #a0a6a8;
+
+
+}
 /*index*/
 .fondomain {
     height: auto;
     background-image: url("../images/7.png");
-    /*background-repeat: no-repeat;*/
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    /*width: 100%;*/
+    
 }
 
 .gridmain {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.2fr 1fr 1.5fr 1fr;
+    grid-template-rows: 0.2fr 0.6fr 0.95fr 0.2fr;
     grid-template-areas:
         "logolista logolista"
         "main main"
         "fotos parrafo"
-        /*"fotos parrafo"
-        "fotos parrafo"
-        "fotos parrafo"
-        "fotos parrafo"
-        "fotos parrafo"*/
         "redes redes"
     ;
 }
@@ -88,6 +87,7 @@ a {
 
 .logolista img {
     position: absolute;
+    margin-top: 16px;
     width: 3.67rem;
     height: 3.67rem;
     z-index: 2;
@@ -118,13 +118,18 @@ a {
 
 .fotos img {
     position: sticky;
+    margin-left: 20px;
+    padding-top: 20px;
     width: 350px;
     height: 350px;
 }
 
-.fotos p{
+.parrafo{
     font-family: 'Kalam', cursive;
     font-size:medium;
+}
+.parrafo1{
+    display: inline-block;
 }
 .redes img {
     width: 50px;
@@ -426,5 +431,38 @@ a {
         grid-area: footer;
     }
 
+    .gridmain {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.6fr 1fr 0.2fr;
+        grid-template-areas:
+            "logolista "
+            "main "
+            "fotos" 
+            "parrafo"
+            "redes"
+        ;
+    }
+    
+    .logolista {
+        grid-area: logolista;
+    }
+    
+    .main {
+        grid-area: main;
+    }
+    
+    .fotos {
+        grid-area: fotos;
+    }
+    
+    .parrafo {
+        grid-area: parrafo;
+    }
+    
+    .redes {
+        grid-area: redes;
+    }
+    
 
 }
