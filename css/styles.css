@@ -427,6 +427,13 @@ a:hover {
         margin: 0px;
     }
 
+    .main h2 {
+        font-size: 1rem;
+    }
+
+    .productos {
+        font-size: 1rem;
+    }
 
     .fondolista ul li {
         display: inline-block;
@@ -444,7 +451,8 @@ a:hover {
         background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
         text-align: center;
     }
-    .fondolistaspan{
+
+    .fondolistaspan {
         background-color: #0f2e37;
     }
 
@@ -559,7 +567,7 @@ a:hover {
 
     .gradientgaleria h1 {
         margin: 15px;
-        color: #140858e7;        
+        color: #140858e7;
     }
 
 }
