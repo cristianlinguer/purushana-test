@@ -39,9 +39,8 @@ a {
 
 a:hover {
     color: #a0a6a8;
-
-
 }
+
 
 /*index*/
 .fondomain {
@@ -106,9 +105,10 @@ a:hover {
 .main h1 {
     color: #8d0c53cc;
     font-size: 5rem;
-    text-align:center;
+    text-align: center;
     margin: 20px;
 }
+
 .productos {
     color: #092b1e;
     font-size: 2rem;
@@ -145,6 +145,7 @@ a:hover {
 }
 
 .redes img {
+    margin-top: 3rem;
     width: 50px;
     display: inline-block;
     padding: 5px 5px;
@@ -351,110 +352,127 @@ a:hover {
 a:hover {
     color: #a0a6a8;
 }
-    /*galeria*/
+
+/*galeria*/
 
 .gradientgaleria {
-    background:#413c3d;
-    background:linear-gradient(63deg, #413c3d 47%, #fcb045 100%);
+    background: #413c3d;
+    background: linear-gradient(63deg, #413c3d 47%, #fcb045 100%);
 }
 
-    /*sobre mi*/
-    .gradientsobremi {
-        padding: 1.5rem;
-        height: auto;
-        background: #020024;
-        background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
-        width: 100%;
-    }
+.gradientgaleria h1 {
+    text-align: center;
+    color: #1aebe18f;
+    text-shadow: #000000;
+}
 
 
-    .grid1 {
-        display: grid;
-        grid-template-columns: 0.5fr 1fr 1fr 0.5fr ;
-        grid-template-rows: 1fr; 
-        grid-template-areas: 
+/*sobre mi*/
+.gradientsobremi {
+    padding: 1.5rem;
+    height: auto;
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    width: 100%;
+}
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
         ". yellowstone parrafo ."
-    }
+}
 
-    .grid1 img {
-        grid-area: yellowstone;
-    }
+.grid1 img {
+    grid-area: yellowstone;
+}
 
-    .h3 {
-        align-content: center;
-        grid-area: parrafo;
+.h3 {
+    align-content: center;
+    grid-area: parrafo;
 
-    }
+}
 
-    /*.grid1 img {
+/*.grid1 img {
     max-width: 1rem;
     max-height: 1rem;
     grid-area: yellowstone;
 }*/
 
-    .h3 {
-        color: #25272c;
-        font-size: 1.5rem;
-        text-align: justify;
-        margin-top: 40px;
-        padding: 20PX 20PX;
+.h3 {
+    color: #25272c;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-top: 40px;
+    padding: 20PX 20PX;
+}
+
+
+/*mis productos*/
+.fondogradient {
+    background: #c86fbc;
+    background: linear-gradient(8deg, #c86fbc 13%, #89d7ed 63%, #fcb045 100%);
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .main h1 {
+        font-size: 3rem;
+        margin: 0px;
     }
 
 
-    /*mis productos*/
-    .fondogradient {
-        background: #c86fbc;
-        background: linear-gradient(8deg, #c86fbc 13%, #89d7ed 63%, #fcb045 100%);
+    .fondolista ul li {
+        display: inline-block;
+        padding: 5px 5px;
+
     }
 
+    .fondomain1 {
+        background: rgb(234, 240, 240);
+        background: linear-gradient(0deg, rgba(234, 240, 240, 1) 0%, rgba(6, 6, 6, 1) 100%);
+    }
 
+    .fondolista {
+        background: rgb(34, 193, 195);
+        background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+        text-align: center;
+    }
+    .fondolistaspan{
+        background-color: #0f2e37;
+    }
 
+    a {
+        text-decoration: none;
+        display: inline-block;
+        text-align: right;
+        color: #04301a;
+    }
 
+    .form {
+        box-shadow: 0 0 20px 0;
+        background: rgb(28, 221, 24);
+        background: linear-gradient(8deg, #1cdd18 33%, #0f2e37 78%);
+        padding: 1rem;
+        grid-area: form;
+        border-radius: 10px;
+    }
 
+    .fieldset {
+        background: #dd18b5;
+        background: linear-gradient(8deg, #dd18b5 9%, #0f2e37 81%);
+    }
 
-    @media screen and (max-width: 768px) {
-        .fondolista ul li {
-            display: inline-block;
-            padding: 5px 5px;
-
-        }
-
-        .fondomain1 {
-            background: rgb(234, 240, 240);
-            background: linear-gradient(0deg, rgba(234, 240, 240, 1) 0%, rgba(6, 6, 6, 1) 100%);
-        }
-
-        .fondolista {
-            background: rgb(34, 193, 195);
-            background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
-            text-align: center;
-        }
-
-        a {
-            text-decoration: none;
-            display: inline-block;
-            text-align: right;
-            color: #04301a;
-        }
-
-        .form {
-            box-shadow: 0 0 20px 0;
-            background: rgb(28, 221, 24);
-            background: linear-gradient(8deg, #1cdd18 33%, #0f2e37 78%);
-            padding: 1rem;
-            grid-area: form;
-            border-radius: 10px;
-        }
-
-        .fieldset {
-            background: #dd18b5;
-            background: linear-gradient(8deg, #dd18b5 9%, #0f2e37 81%);
-        }
-
-        .boton1 {
+    /*.boton1 {
             color: #000000;
             cursor: pointer;
-            /*background: rgb(130, 139, 132);*/
+            /*background: rgb(130, 139, 132);
             cursor: pointer;
             background: linear-gradient(34deg, transparent 50%, #eaf0f0 6%, #18c2c2 44%, #060606 95%);
             background-size: 200%;
@@ -466,73 +484,82 @@ a:hover {
             background-position: right;
             color: #000000;
 
-        }
+        }*/
 
-        .grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 0.2fr 1fr 1fr 0.2fr;
-            grid-template-areas:
-                "listado"
-                "form"
-                "fieldset"
-                "enviar"
-                "footer"
-            ;
-        }
-
-        .listado {
-            grid-area: listado;
-        }
-
-        .form {
-            grid-area: form;
-        }
-
-        .fieldset {
-            grid-area: fieldset;
-        }
-
-        .enviar {
-            grid-area: enviar;
-        }
-
-        .footer {
-            grid-area: footer;
-        }
-
-        .gridmain {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 0.2fr 0.6fr 1fr 0.2fr;
-            grid-template-areas:
-                "logolista "
-                "main "
-                "fotos"
-                "parrafo"
-                "redes"
-            ;
-        }
-
-        .logolista {
-            grid-area: logolista;
-        }
-
-        .main {
-            grid-area: main;
-        }
-
-        .fotos {
-            grid-area: fotos;
-        }
-
-        .parrafo {
-            grid-area: parrafo;
-        }
-
-        .redes {
-            grid-area: redes;
-        }
-
-
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 1fr 1fr 0.2fr;
+        grid-template-areas:
+            "listado"
+            "form"
+            "fieldset"
+            "enviar"
+            "footer"
+        ;
     }
+
+    .listado {
+        grid-area: listado;
+    }
+
+    .form {
+        grid-area: form;
+    }
+
+    .fieldset {
+        grid-area: fieldset;
+    }
+
+    .enviar {
+        grid-area: enviar;
+    }
+
+    .footer {
+        grid-area: footer;
+    }
+
+    .gridmain {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.6fr 1fr 0.2fr;
+        grid-template-areas:
+            "logolista "
+            "main "
+            "fotos"
+            "parrafo"
+            "redes"
+        ;
+    }
+
+    .logolista {
+        grid-area: logolista;
+    }
+
+    .main {
+        grid-area: main;
+    }
+
+    .fotos {
+        grid-area: fotos;
+    }
+
+    .parrafo {
+        grid-area: parrafo;
+    }
+
+    .redes {
+        grid-area: redes;
+    }
+
+    .gradientgaleria {
+        background: #ccd5ae;
+        background: linear-gradient(90deg, #ccd5ae 20%, #faedcd 51%, #d4a373 97%);
+    }
+
+    .gradientgaleria h1 {
+        margin: 15px;
+        color: #140858e7;        
+    }
+
+}
