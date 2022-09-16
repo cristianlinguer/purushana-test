@@ -117,8 +117,6 @@ a:hover {
     font-family: monospace;
 }
 
-
-
 .fotos h3 {
     color: #092b1e;
     font-size: 2rem;
@@ -356,6 +354,7 @@ a:hover {
 /*galeria*/
 
 .gradientgaleria {
+    padding: 1.5rem;
     background: #413c3d;
     background: linear-gradient(63deg, #413c3d 47%, #fcb045 100%);
 }
@@ -366,14 +365,12 @@ a:hover {
     text-shadow: #000000;
 }
 
-
 /*sobre mi*/
 .gradientsobremi {
     padding: 1.5rem;
-    height: auto;
-    background: #020024;
-    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
-    width: 100%;
+    background: #d3bdb0;
+    background: linear-gradient(90deg, #d3bdb0 20%, #c1ae9f 40%, #89937c 59%, #715b64 78%, #69385cd8 93%);
+    %);
 }
 
 
@@ -382,7 +379,7 @@ a:hover {
     grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
     grid-template-rows: 1fr;
     grid-template-areas:
-        ". yellowstone parrafo ."
+        ". yellowstone parrafo . ."
 }
 
 .grid1 img {
@@ -412,6 +409,7 @@ a:hover {
 
 /*mis productos*/
 .fondogradient {
+    padding: 1.5rem;
     background: #c86fbc;
     background: linear-gradient(8deg, #c86fbc 13%, #89d7ed 63%, #fcb045 100%);
 }
@@ -570,4 +568,27 @@ a:hover {
         color: #140858e7;
     }
 
+    .grid1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.6fr 1fr 0.2fr;
+        grid-template-areas:
+            "logolista"
+            "parrafoSM"
+            "yellowstone"
+            "redes"
+        ;
+    }
+
+    .grid1 img {
+        position: relative;
+        grid-area: yellowstone;
+    }
+
+    .h3 {
+        font-size: 1rem;
+        align-content: center;
+        grid-area: parrafoSM;
+
+    }
 }
