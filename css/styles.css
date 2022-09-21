@@ -19,6 +19,24 @@ body {
 
 }
 
+.btn{
+    padding-inline: 4rem;
+    padding-block: 1rem;
+}
+.fancy-undeline {
+    background-image: linear-gradient(120deg, #77A1D3, #79CBCA, #E684AE 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.1em;
+    background-position: 0 100%;
+    transition: background-size 0.1s ease-in;
+}
+
+.fancy-undeline:hover {
+    background-size: 100% 88%;
+}
+.offcanvas{
+    background-color: none;
+}
 .fondolista {
     background: linear-gradient(60deg, #b5c99a 9%, #b5c99a 21%, #87986a 30%, #718355 40%, #5a6d45 52%, #425734 65%, #2b4124 78%, #132a13 91%);
     font-size: 1rem;
@@ -26,30 +44,29 @@ body {
 }
 
 .fondolista ul li {
-    display: inline-block;
-    padding: 20px 20px;
+    display: inline;
+    padding: 15px 15px;
 }
 
 a {
     text-decoration: none;
     display: inline-block;
     text-align: right;
-    color: #f2f39e;
+    color: #22bb14;
 }
 
 a:hover {
-    color: #a0a6a8;
+    color: #11aee2;
 }
 
 
 /*index*/
 .fondomain {
-    padding: 1.5rem;
-    height: auto;
-    background-image: url("../images/7.png");
+    /*padding: 1.5rem;
+    height: auto;*/
     background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background: rgb(222, 196, 161);
+    background: linear-gradient(290deg, #dec4a1 3%, #d0aba0 24%, #edcf8e 83%);
 
 }
 
@@ -85,6 +102,13 @@ a:hover {
     grid-area: redes;
 }
 */
+.logolista1 img {
+    position:sticky;
+    /*margin-top: 2px;*/
+    width: 3.67rem;
+    height: 3.67rem;
+    z-index: 2;
+}
 
 .logolista img {
     position: absolute;
@@ -365,6 +389,10 @@ a:hover {
     text-shadow: #000000;
 }
 
+.img-thumbnail{
+    margin: 20px;
+    border: 20px;
+}
 /*sobre mi*/
 .gradientsobremi {
     padding: 1.5rem;

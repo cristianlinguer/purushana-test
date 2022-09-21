@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- compatibilidad dif dispositivos -->
     <title>purushana</title>
     <!--favicon-->
-    <link rel="shortcut icon" href="images/56.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../51525/images/56.png" type="image/x-icon">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -25,7 +25,27 @@
 
 <body class="fondomain">
     <header>
-        <nav class="navbar fondolistaspan navbar-expand-lg btn-group-lg">
+        <a class="btn fancy-undeline" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+        aria-controls="offcanvasExample">
+        menú
+    </a>
+
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <a class="offcanvas-title logolista1" id="offcanvasExampleLabel"><img src="../51525/images/56.png"></a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body fondolista">
+            <ul>
+                <li class="dropdown-item fancy-undeline"><a href="index.html">inicio</a></li>
+                <li class="dropdown-item fancy-undeline"><a href="pages/sobremi.html">sobre mi</a></li>
+                <li class="dropdown-item fancy-undeline"><a href="pages/misproductos.html">mis productos</a></li>
+                <li class="dropdown-item fancy-undeline"><a href="pages/galeria.html">galeria</a></li>
+                <li class="dropdown-item fancy-undeline"><a href="pages/contactame.html">contactame</a></li>
+            </ul>
+        </div>
+    </div>
+                <!--<nav class="navbar fondolistaspan navbar-expand-lg btn-group-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="../51525/images/56.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -52,7 +72,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav>-->
     </header>
     <!--<div class="gridmain">
         <header class="logolista">
@@ -73,7 +93,6 @@
         <h2>tienda integral sustentable</h2>
     </main>
     <section>
-        <h3 class="productos">algunos de mis productos</h3>
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -119,11 +138,11 @@
             <a href="https://wa.me/c/5491141935464" target="_blank"> <img src="images/whatsapp.png" alt="whatsapp"></a>
         </div>
         <p>copyright © 2022 cristian linguer from PURUSHANA</p>
-    </footer>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
+        </footer>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
