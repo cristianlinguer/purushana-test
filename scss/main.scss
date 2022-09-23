@@ -1,5 +1,40 @@
-h1{
-    color: antiquewhite;
+@import"variables";
+@import"mediaqueries";
+@import"index";
+@import"contactame";
+@import"galeria";
+@import"misproductos";
+@import"sobremi";
+
+
+.fondolista {
+    background: linear-gradient(60deg, #b5c99a 9%, #b5c99a 21%, #87986a 30%, #718355 40%, #5a6d45 52%, #425734 65%, #2b4124 78%, #132a13 91%);
+    font-size: 1rem;
+    text-align: right;
+    ul li{
+    display: inline;
+    padding: 15px 15px;
+    }
+    a{
+        color: aliceblue;
+        font-family:kalam;
+    }
 }
 
+.navbar-brand{
+    img{
+        position:sticky;
+        width: 3.67rem;
+        height: 3.67rem;
+        z-index: 2;
 
+    } 
+}
+
+/* .logolista img {
+    position: absolute;
+    margin-top: 16px;
+    width: 3.67rem;
+    height: 3.67rem;
+    z-index: 2;
+} */

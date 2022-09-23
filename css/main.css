@@ -1,2 +1,105 @@
-h1 {
-  color: antiquewhite; }
+@media screen and (max-width: 991px) {
+  .fondomain {
+    background-image: none;
+    background: #eaf0f0;
+    background: linear-gradient(0deg, #eaf0f0 0%, #060606 100%); }
+  .fondolistaspan {
+    background-color: #36606d; }
+  .fondolista {
+    background: #22c1c3;
+    background: linear-gradient(0deg, #22c1c3 0%, #fdbb2d 100%);
+    text-align: center; }
+    .fondolista ul li {
+      display: inline-block;
+      padding: 5px 5px; }
+      .fondolista ul li a {
+        text-decoration: none;
+        display: inline-block;
+        text-align: right;
+        color: #77b395; } }
+
+.fondomain {
+  background-image: url(../images/hojaseca.jpg); }
+
+/* .fancy-undeline {
+    background-image: linear-gradient(120deg, #77A1D3, #79CBCA 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.1em;
+    background-position: 0 100%;
+    transition: background-size 0.1s ease-in;
+    &:hover {
+        background-size: 100% 88%;
+    }
+} */
+.main h2 {
+  color: #41eeae;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 10px;
+  font-family: kalam; }
+
+.main h1 {
+  color: #c0b6bccc;
+  font-size: 5rem;
+  text-align: center;
+  margin: 20px;
+  font-family: yatra;
+  font-weight: bold; }
+
+.logolista1 img {
+  position: sticky;
+  width: 3.67rem;
+  height: 3.67rem;
+  z-index: 2; }
+
+.logolista img {
+  position: absolute;
+  margin-top: 16px;
+  width: 3.67rem;
+  height: 3.67rem;
+  z-index: 2; }
+
+.fotos h3 {
+  color: #092b1e;
+  font-size: 2rem;
+  text-align: left;
+  margin-top: 40px;
+  font-family: monospace; }
+
+.fotos img {
+  display: flex;
+  margin-left: 20px;
+  padding-top: 20px;
+  width: 350px;
+  height: 350px; }
+
+.redes img {
+  margin-top: 3rem;
+  width: 50px;
+  display: inline-block;
+  padding: 5px 5px; }
+
+.fondolista {
+  background: linear-gradient(60deg, #b5c99a 9%, #b5c99a 21%, #87986a 30%, #718355 40%, #5a6d45 52%, #425734 65%, #2b4124 78%, #132a13 91%);
+  font-size: 1rem;
+  text-align: right; }
+  .fondolista ul li {
+    display: inline;
+    padding: 15px 15px; }
+  .fondolista a {
+    color: aliceblue;
+    font-family: kalam; }
+
+.navbar-brand img {
+  position: sticky;
+  width: 3.67rem;
+  height: 3.67rem;
+  z-index: 2; }
+
+/* .logolista img {
+    position: absolute;
+    margin-top: 16px;
+    width: 3.67rem;
+    height: 3.67rem;
+    z-index: 2;
+} */

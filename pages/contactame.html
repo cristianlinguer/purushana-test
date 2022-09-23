@@ -66,33 +66,30 @@
             </nav>
         </header>
         <img class="icono" src="../images/56.png" alt="tienda purushana" title="tienda purushana"> -->
-
-    <form class="ContainerForm">
-        <div>
-            <h2>ESCRIBIME</h2>
-            <div class="mb-3">
-                <label class="form-label" for="nombre">nombre: </label>
-                <input type="text" aria-label="First name" class="form-control">
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Correo electrónico.</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">decime lo que creas importante:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-        </div>
-
-        <!--<div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Verificado</label>
-            </div>
-            <!--<button type="submit" class="btn btn-primary">Enviar</button>-->
-    </form>
-    <!--<form class="form">
-            <!--action="" method="get o post" enctype=""
+    <section class="container-fluid">
+        <div class="row">
+            <form class="ContainerForm col-lg-6">
+                <div>
+                    <h2>ESCRIBIME</h2>
+                    <div class="mb-3">
+                        <label class="form-label" for="nombre">nombre: </label>
+                        <input type="text" aria-label="First name" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Correo electrónico.</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">decime lo que creas
+                            importante:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+            </form>
+            <!--<form class="form">
+            action="" method="get o post" enctype=""
             <h2 class="escribime">ESCRIBIME</h2>
 
             <label class="nombre" for="nombre">nombre: </label>
@@ -104,7 +101,7 @@
             <label class="mensaje" for="mensaje">mensaje:</label>
             <textarea class="textarea" id="" cols="" rows="5" name="mensaje"></textarea>
 
-            <!--<label for="genero">genero:</label>
+            <label for="genero">genero:</label>
             <input type="radio" name="genero" id="genero"> M
             <input type="radio" name="genero" id="genero"> F
 
@@ -112,14 +109,31 @@
             <input type="radio" value="1" name="terminos y condiciones" id=""> si
             <input type="radio" value="2" name="terminos y condiciones" id=""> no
 
-            <input type="checkbox" value="1" name="deseo recibir mail"> deseo recibir mail con novedades-->
+            <input type="checkbox" value="1" name="deseo recibir mail"> deseo recibir mail con novedades
 
-    </form>
+        </form>-->
 
-    <form class="fieldset">
-        <h2>DATOS DE ENVIO</h2>
-
-        <label for="calle">calle:</label>
+            <form class="fieldset col-lg-6">
+                <div>
+                    <h2>DATOS DE ENVIO</h2>
+                    <div class="mb-3">
+                        <label class="form-label" for="calle">calle: </label>
+                        <input type="text" aria-label="calle" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="altura">altura: </label>
+                        <input type="text" aria-label="altura" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="postal">codigo postal: </label>
+                        <input type="text" aria-label="postal" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="provincia">provincia: </label>
+                        <input type="text" aria-label="provincia" class="form-control">
+                    </div>
+                </div>
+                <!-- <label for="calle">calle:</label>
         <input type="text" name="calle">
 
         <label for="altura">altura:</label>
@@ -129,9 +143,10 @@
         <input type="text" name="postal" id="">
 
         <label for="provincia">provincia:</label>
-        <input type="text" name="provincia" id="">
-    </form>
-
+        <input type="text" name="provincia" id="">-->
+            </form>
+        </div>
+    </section>
     <form class="enviar">
         <input class="boton1" type="button" value="no hace nada">
         <input class="boton1" type="submit" value="enviar">
@@ -160,7 +175,6 @@
         <p>copyright © 2022 cristian linguer from PURUSHANA</p>
     </footer>
 
-    </div>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"

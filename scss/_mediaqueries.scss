@@ -1,0 +1,30 @@
+@media screen and (max-width: 991px){
+    
+    .fondomain {
+        background-image: none;
+        background: rgb(234, 240, 240);
+        background: linear-gradient(0deg, rgba(234, 240, 240, 1) 0%, rgba(6, 6, 6, 1) 100%);
+    }
+    .fondolistaspan {
+        background-color: #36606d;
+    }
+
+    .fondolista {
+        background: rgb(34, 193, 195);
+        background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+        text-align: center;
+        ul li {
+            display: inline-block;
+            padding: 5px 5px;
+            a {
+                text-decoration: none;
+                display: inline-block;
+                text-align: right;
+                color: #77b395;
+            }
+    
+        }
+    }
+    
+
+}
