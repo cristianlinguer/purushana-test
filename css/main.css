@@ -19,27 +19,18 @@
         color: #77b395; } }
 
 .fondomain {
-  background-image: url(../images/hojaseca.jpg); }
+  background: #1a936f;
+  background: linear-gradient(180deg, #1a936f 12%, #88d498 55%, #c6dabf 91%); }
 
-/* .fancy-undeline {
-    background-image: linear-gradient(120deg, #77A1D3, #79CBCA 100%);
-    background-repeat: no-repeat;
-    background-size: 100% 0.1em;
-    background-position: 0 100%;
-    transition: background-size 0.1s ease-in;
-    &:hover {
-        background-size: 100% 88%;
-    }
-} */
 .main h2 {
-  color: #41eeae;
+  color: #362242;
   font-size: 2rem;
   text-align: center;
   margin-top: 10px;
   font-family: kalam; }
 
 .main h1 {
-  color: #c0b6bccc;
+  color: #2c1322cc;
   font-size: 5rem;
   text-align: center;
   margin: 20px;
@@ -73,11 +64,116 @@
   width: 350px;
   height: 350px; }
 
-.redes img {
-  margin-top: 3rem;
-  width: 50px;
-  display: inline-block;
-  padding: 5px 5px; }
+.fondomain1 {
+  background: #ffccd5;
+  background: linear-gradient(180deg, #ffccd5 12%, #ffb3c1 55%, #ff8fa3 91%); }
+
+.form {
+  box-shadow: 0 0 20px 0;
+  border-radius: 5px;
+  background: linear-gradient(8deg, #946d8c 9%, #378ca7 81%);
+  padding: 1rem;
+  margin: 1rem;
+  grid-area: form; }
+  .form h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    margin: 20px;
+    padding-top: 20px;
+    font-family: kalam; }
+  .form label {
+    width: 100%;
+    font-weight: bold;
+    color: #104910;
+    margin-bottom: 10px;
+    background-image: none;
+    border: none; }
+  .form input {
+    width: 100%;
+    margin-block: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px; }
+  .form textarea {
+    width: 100%;
+    margin-block: 10px;
+    border: none;
+    border-radius: 10px; }
+
+.fieldset {
+  box-shadow: 0 0 20px 0;
+  border-radius: 5px;
+  background: #01161e;
+  background: linear-gradient(190deg, #01161e 12%, #aec3b0 55%, #eff6e0 91%);
+  padding: 1rem;
+  margin: 1rem; }
+  .fieldset h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    margin: 20px;
+    padding-top: 20px;
+    font-family: kalam; }
+  .fieldset label {
+    width: 100%;
+    color: #104910;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-image: none;
+    border: none; }
+  .fieldset input {
+    width: 100%;
+    margin-block: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px; }
+
+.enviar {
+  text-align: center; }
+
+.boton1 {
+  color: #911b1b;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: large;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #1bc740;
+  background: linear-gradient(82deg, transparent 50%, #22b973 0%, #94bbe9 100%);
+  background-size: 300%;
+  background-position: left;
+  transition: background-position 0.3s; }
+  .boton1:hover {
+    background-position: right;
+    color: #000000; }
+
+.gradientgaleria {
+  background: #1b4332;
+  background: linear-gradient(180deg, #1b4332 12%, #40916c 55%, #74c69d 91%); }
+  .gradientgaleria h1 {
+    text-align: center;
+    color: #1aebe18f; }
+
+.img-thumbnail {
+  margin: 10px;
+  border: 10px; }
+
+.fondogradient {
+  background: #9d4edd;
+  background: linear-gradient(180deg, #9d4edd 12%, #c77dff 55%, #e0aaff 91%); }
+
+.gradientsobremi {
+  background: #253237;
+  background: linear-gradient(180deg, #253237 12%, #5c6b73 55%, #9db4c0 91%); }
+
+.h3 {
+  color: #59e7b8;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin-top: 40px;
+  padding: 20PX 20PX;
+  font-family: kalam; }
 
 .fondolista {
   background: linear-gradient(60deg, #b5c99a 9%, #b5c99a 21%, #87986a 30%, #718355 40%, #5a6d45 52%, #425734 65%, #2b4124 78%, #132a13 91%);
@@ -96,10 +192,8 @@
   height: 3.67rem;
   z-index: 2; }
 
-/* .logolista img {
-    position: absolute;
-    margin-top: 16px;
-    width: 3.67rem;
-    height: 3.67rem;
-    z-index: 2;
-} */
+.redes img {
+  margin-top: 3rem;
+  width: 50px;
+  display: inline-block;
+  padding: 5px 5px; }
