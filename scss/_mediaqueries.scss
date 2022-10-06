@@ -1,9 +1,8 @@
 @media screen and (max-width: 991px){
     
-    .fondomain {
-        background-image: none;
-        background: rgb(234, 240, 240);
-        background: linear-gradient(0deg, rgba(234, 240, 240, 1) 0%, rgba(6, 6, 6, 1) 100%);
+    .gradientgaleria {
+        background: #000000;
+        background: linear-gradient(0deg, #43d6d6 0%, #060606 100%);
     }
     .fondolistaspan {
         background-color: #36606d;
@@ -26,5 +25,29 @@
         }
     }
     
+    .main h1 {
+        color: #2c1322cc;
+        font-size: 3rem;
+        text-align: center;
+        margin: 0px;
+        font-family: yatra;
+        font-weight: bold; 
+    }
 
+    .h3 {
+        color: #59e7b8;
+        font-size: 1.5rem;
+        text-align: justify;
+        align-content:center;
+        margin-top: 40px;
+        padding: 20PX 20PX;
+        font-family: kalam;
+    }
+    .row{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .col-6{
+        width: 100%;
+    }
 }

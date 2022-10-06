@@ -1,8 +1,7 @@
 @media screen and (max-width: 991px) {
-  .fondomain {
-    background-image: none;
-    background: #eaf0f0;
-    background: linear-gradient(0deg, #eaf0f0 0%, #060606 100%); }
+  .gradientgaleria {
+    background: #000000;
+    background: linear-gradient(0deg, #43d6d6 0%, #060606 100%); }
   .fondolistaspan {
     background-color: #36606d; }
   .fondolista {
@@ -16,7 +15,27 @@
         text-decoration: none;
         display: inline-block;
         text-align: right;
-        color: #77b395; } }
+        color: #77b395; }
+  .main h1 {
+    color: #2c1322cc;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0px;
+    font-family: yatra;
+    font-weight: bold; }
+  .h3 {
+    color: #59e7b8;
+    font-size: 1.5rem;
+    text-align: justify;
+    align-content: center;
+    margin-top: 40px;
+    padding: 20PX 20PX;
+    font-family: kalam; }
+  .row {
+    flex-direction: column-reverse;
+    align-items: center; }
+  .col-6 {
+    width: 100%; } }
 
 .fondomain {
   background: #1a936f;
@@ -33,7 +52,7 @@
   color: #2c1322cc;
   font-size: 5rem;
   text-align: center;
-  margin: 20px;
+  margin: 0px;
   font-family: yatra;
   font-weight: bold; }
 
@@ -169,8 +188,8 @@
 
 .h3 {
   color: #59e7b8;
-  font-size: 1.5rem;
   text-align: justify;
+  align-content: center;
   margin-top: 40px;
   padding: 20PX 20PX;
   font-family: kalam; }
