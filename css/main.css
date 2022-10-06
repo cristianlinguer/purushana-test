@@ -18,9 +18,9 @@
         color: #77b395; }
   .main h1 {
     color: #2c1322cc;
-    font-size: 3rem;
+    /* font-size: 1.5rem; */
     text-align: center;
-    margin: 0px;
+    margin: 10px;
     font-family: yatra;
     font-weight: bold; }
   .h3 {
@@ -47,14 +47,6 @@
   text-align: center;
   margin-top: 10px;
   font-family: kalam; }
-
-.main h1 {
-  color: #2c1322cc;
-  font-size: 5rem;
-  text-align: center;
-  margin: 0px;
-  font-family: yatra;
-  font-weight: bold; }
 
 .logolista1 img {
   position: sticky;
