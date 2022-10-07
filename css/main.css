@@ -79,13 +79,17 @@
   background: #ffccd5;
   background: linear-gradient(180deg, #ffccd5 12%, #ffb3c1 55%, #ff8fa3 91%); }
 
+.row {
+  --bs-gutter-x: 1px;
+  display: flex;
+  align-items: center; }
+
 .form {
   box-shadow: 0 0 20px 0;
   border-radius: 5px;
   background: linear-gradient(8deg, #946d8c 9%, #378ca7 81%);
   padding: 1rem;
-  margin: 1rem;
-  grid-area: form; }
+  margin: 1rem; }
   .form h2 {
     text-align: center;
     color: #000000;
@@ -116,7 +120,7 @@
   box-shadow: 0 0 20px 0;
   border-radius: 5px;
   background: #01161e;
-  background: linear-gradient(190deg, #01161e 12%, #aec3b0 55%, #eff6e0 91%);
+  background: linear-gradient(323deg, #01161e 12%, #aec3b0 55%, #eff6e0 91%);
   padding: 1rem;
   margin: 1rem; }
   .fieldset h2 {
@@ -167,7 +171,7 @@
     color: #1aebe18f; }
 
 .img-thumbnail {
-  margin: 10px;
+  margin: 0px;
   border: 10px; }
 
 .fondogradient {
@@ -176,10 +180,10 @@
 
 .gradientsobremi {
   background: #253237;
-  background: linear-gradient(180deg, #253237 12%, #5c6b73 55%, #9db4c0 91%); }
+  background: linear-gradient(275deg, #253237 12%, #5c6b73 55%, #9db4c0 91%); }
 
 .h3 {
-  color: #59e7b8;
+  color: #09929c;
   text-align: justify;
   align-content: center;
   margin-top: 40px;
@@ -208,3 +212,11 @@
   width: 50px;
   display: inline-block;
   padding: 5px 5px; }
+
+.fondofooter {
+  background-color: #0d2529;
+  z-index: 2;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+  .fondofooter .copyright {
+    color: #ffff; }

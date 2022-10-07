@@ -10,7 +10,8 @@
     <meta name="keywords" content="contacto, purushana, sustentable, armonia, femenino, natural">
     <!-- frase que aparece en el buscador -->
     <meta name="description" content="desde acapodes contactarte conmigo para  encontrar lo que necesites">
-    <link rel="shortcut icon" href="../images/icon.jfif" type="image/x-icon">
+    <!--favicon-->
+    <link rel="shortcut icon" href="../images/56.png" type="image/x-icon">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -54,48 +55,55 @@
             </div>
         </div>
     </nav>
-    <form class="form">
-        <h2 class="escribime">ESCRIBIME</h2>
+    <div class="row">
+        <div class="col-6">
+            <form class="form">
+                <h2 class="escribime">ESCRIBIME</h2>
 
-        <label class="nombre" for="nombre">nombre: </label>
-        <input class="input" type="text" name="nombre">
+                <label class="nombre col-3" for="nombre">nombre: </label>
+                <input class="input" type="text" name="nombre">
 
-        <label class="email" for="email">e-mail:</label>
-        <input class="input" type="email" name="e-mail" id="">
+                <label class="email col-3" for="email">e-mail:</label>
+                <input class="input" type="email" name="e-mail" id="">
 
-        <label class="mensaje" for="mensaje">mensaje:</label>
-        <textarea class="textarea" id="" cols="" rows="5" name="mensaje"></textarea>
-    </form>
-    <form class="fieldset">
-        <h2 class="escribime">DATOS DE ENVIO</h2>
-        <label for="calle">calle:</label>
-        <input type="text" name="calle">
+                <label class="mensaje col-6" for="mensaje">mensaje:</label>
+                <textarea class="textarea" id="" cols="" rows="5" name="mensaje"></textarea>
+            </form>
+        </div>
+        <div class="col-6">
+            <form class="fieldset">
+                <h2 class="escribime">DATOS DE ENVIO</h2>
+                <label for="calle">calle:</label>
+                <input type="text" name="calle">
 
-        <label for="altura">altura:</label>
-        <input type="text" name="altura" id="">
+                <label for="altura">altura:</label>
+                <input type="text" name="altura" id="">
 
-        <label for="postal">codigo postal:</label>
-        <input type="text" name="postal" id="">
+                <label for="postal">codigo postal:</label>
+                <input type="text" name="postal" id="">
 
-        <label for="provincia">provincia:</label>
-        <input type="text" name="provincia" id="">
-    </form>
+                <label for="provincia">provincia:</label>
+                <input type="text" name="provincia" id="">
+            </form>
+        </div>
+    </div>
+
     <form class="enviar">
         <input class="boton1" type="button" value="no hace nada">
         <input class="boton1" type="submit" value="enviar">
         <input class="boton1" type="reset" value="borrar">
     </form>
 
-    <footer class="footer">
+    <footer class="fondofooter text-center">
         <div class="redes">
-            <a href="https://www.instagram.com/tienda_purushana/" target="_blank"> <img
-                    src="../images/instagram.png" alt="instagram"></a>
+            <a href="https://www.instagram.com/tienda_purushana/" target="_blank"> <img src="../images/instagram.png"
+                    alt="instagram"></a>
             <a href="https://wa.me/c/5491141935464" target="_blank"> <img src="../images/whatsapp.png"
                     alt="whatsapp"></a>
         </div>
 
 
-        <p>copyright © 2022 cristian linguer from PURUSHANA</p>
+        <p class="copyright">copyright © 2022 cristian linguer from PURUSHANA</p>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->

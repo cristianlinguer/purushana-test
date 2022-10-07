@@ -3,13 +3,18 @@
     background: linear-gradient(180deg, #ffccd5 12%, #ffb3c1 55%, #ff8fa3 91%);
 }
 
+.row {
+    --bs-gutter-x: 1px;
+    display: flex;
+    align-items: center;
+}
 .form {
     box-shadow: 0 0 20px 0;
     border-radius: 5px;
     background: linear-gradient(8deg, #946d8c 9%, #378ca7 81%);
     padding: 1rem;
     margin: 1rem;
-    grid-area: form;
+
 
     h2 {
         text-align: center;
@@ -51,7 +56,7 @@
     box-shadow: 0 0 20px 0;
     border-radius: 5px;
     background: #01161e;
-    background: linear-gradient(190deg, #01161e 12%, #aec3b0 55%, #eff6e0 91%);
+    background: linear-gradient(323deg, #01161e 12%, #aec3b0 55%, #eff6e0 91%);
     padding: 1rem;
     margin: 1rem;
 
